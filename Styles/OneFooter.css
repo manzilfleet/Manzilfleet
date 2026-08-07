@@ -1,0 +1,58 @@
+.location-icon{
+    display: flex;
+    gap: 0.1rem;
+    align-items: start;
+    justify-content: start;
+    font-size: 0.9rem;
+    text-align: start;
+    width: 20rem;
+}
+
+.line-H{
+    list-style: none;
+    text-align: start;
+}
+
+
+.contact{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 150px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a {
+  display: block;
+  font-size: 0.6rem;
+  padding: 10px;
+  color: black;
+}
+
+.dropdown-menu a:hover {
+  background: #f2f2f2;
+}
+
+/* Hover par open */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

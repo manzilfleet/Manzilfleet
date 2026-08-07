@@ -1,0 +1,74 @@
+/* ownerpov.css */
+
+.owner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 60px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.owner-left {
+  flex: 1;
+  min-width: 350px;
+}
+
+.owner-left h1 {
+  font-size: 64px;
+  color: #2451c4;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.owner-left p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #2451c4;
+  margin-bottom: 40px;
+}
+
+.quote {
+  display: inline-block;
+  background: rgba(36, 81, 196, 0.15);
+  padding: 12px 18px;
+  font-size: 28px;
+  font-style: italic;
+  color: #2451c4;
+  margin-bottom: 50px;
+}
+
+.owner-name {
+  text-align: right;
+}
+
+.owner-name h2 {
+  font-size: 54px;
+  color: #2451c4;
+  margin: 0;
+}
+
+.owner-name span {
+  display: inline-block;
+  margin-top: 10px;
+  background: #2451c4;
+  color: white;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.owner-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 350px;
+}
+
+.owner-right img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  object-fit: cover;
+}

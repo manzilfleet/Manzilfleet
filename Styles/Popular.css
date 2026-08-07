@@ -1,0 +1,17 @@
+/* CARD STYLE */
+
+
+.scroll-container {
+  display: flex;
+  gap: 1rem
+}
+
+.card {
+  height: 17.3rem;
+  overflow: hidden;
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}

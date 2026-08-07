@@ -1,0 +1,95 @@
+
+.tour-section {
+  position: relative;
+  text-align: center;
+  padding: 80px 40px;
+  background: #f8f9fb;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtitle {
+  color: #1da1a5;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* Floating icons */
+.icon {
+  position: absolute;
+  font-size: 28px;
+}
+
+.camera {
+  top: 7.5rem;
+  left: 30%;
+}
+
+.ticket {
+  top: 7.5rem;
+  right: 30%;
+}
+
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.N-card {
+  width: 150px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.N-card img {
+  width: 100%;
+  height: 10rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.N-card p {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.N-card:hover {
+  transform: translateY(-8px);
+}
+
+.N-card-0 {
+  margin-top: 0;
+}
+.N-card-1 {
+  margin-top: 40px;
+}
+.N-card-2 {
+  margin-top: 80px;
+}
+.N-card-3 {
+  margin-top: 40px;
+}
+.N-card-4 {
+  margin-top: 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .N-card {
+    margin-top: 0 !important;
+  }
+}

@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 75.5%;
+    overflow-x: hidden;
+  }
+  
+
+
+.main-services{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin:3rem -5rem 2rem 4rem;
+  padding: 1rem;
+  align-items: start;
+}
+
+.service-p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: auto;
+  text-align: start;
+}
+
+
+.heading-primary{
+  font-size: 4.2rem;
+  font-weight: 800;
+  text-align: center;
+  color: #2451c4;
+  margin: 0.5rem;
+}
+
+
+.hero{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: start;
+  }
+
+  .hero-text-box{
+    margin: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+  }
+  
+  .hero-img {
+    width: 100%;
+  }
+  
+  .Tour-Our-Item {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8rem;
+  }
+  
+  .Tour-Our-imgs {
+    display: flex;
+  }
+  
+  .Tour-Our-imgs img {
+    height: 10.8rem;
+    width: 10.8rem;
+    border-radius: 10%;
+    margin-left: -1.6rem;
+    margin-top: 1.5rem;
+    border: 3px solid #fdf2e9;
+  }
+  
+  .Tour-Our-imgs img:last-child {
+    margin: 1fr 1fr;
+  }
+  
+  .Tour-Our-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .Tour-Our-text span {
+    font-weight: 700;
+    color: #e67e22;
+  }
+
+ 
